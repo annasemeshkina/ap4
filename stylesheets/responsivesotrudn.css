@@ -1,0 +1,66 @@
+@media only screen and (min-width: 834px) and (max-width: 1024px) {
+  .babochki2 {
+      margin-top: -7vw;
+      margin-left: 74vw;
+      position: absolute;
+      height: 100%;
+      width: 26vw;
+      background: url('images/babochki2.svg');
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+.sotrudnichestvo {
+    margin-top: 5vw;
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    background: url(images/sotrudnichestvo.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.babochki1 {
+    margin-top: -4vw;
+    margin-left: -42vw;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(images/babochki1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 834px) {
+  .babochki1 {
+    display: none;
+  }
+  .babochki2 {
+    display: none;
+  }
+  .sotrudnrectangle {
+    width: 58vw;
+}
+.sotrudntxt {
+    margin-top: 2.7vh;
+    margin-left: 14.600000000000001vw;
+    position: absolute;
+    font-family: "Chava";
+    color: white;
+    text-shadow: 0.2vw 0.2vw 0.3vw #FF0089;
+    font-size: 3.6vw;
+}
+.krest {
+    margin-top: 1.5vh;
+    margin-left: 9vw;
+    position: absolute;
+    height: 5%;
+    width: 5%;
+    background: url(images/krest.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+}

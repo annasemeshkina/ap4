@@ -1,0 +1,109 @@
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .magazin {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(5, 35vh);
+    gap: 0px 0px;
+    grid-template-areas:
+    "znachki"
+    "maska"
+    "podushka"
+    "nakleyki"
+    "dnevnik"
+  }
+  .znachki{ grid-area: znachki }
+  .maska { grid-area: maska }
+  .podushka{ grid-area: podushka }
+  .nakleyki { grid-area: nakleyki }
+  .dnevnik { grid-area: dnevnik }
+  .znachki{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+    height: 80%;
+    width: 100%;
+    background: url('images/znachki.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .maska {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+    height: 80%;
+    width: 100%;
+    background: url('images/maska.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .podushka{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+    height: 80%;
+    width: 100%;
+    background: url('images/poduskka.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .nakleyki {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    width: 100%;
+    background: url('images/nakleyki.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .dnevnik {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    width: 100%;
+    background: url('images/dnevnik.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .shoptxt {
+    margin-top: 2.4vh;
+    margin-left: 13vw;
+    position: absolute;
+    font-family: "Chava";
+    color: white;
+    text-shadow: 0.2vw 0.2vw 0.3vw #FF0089;
+    font-size: 3vw;
+  }
+  .shoprectangle {
+    height: 10vh;
+    width: 25vw;
+    margin-top: -1vh;
+    margin-left: 7vw;
+    position: absolute;
+    background: url('images/newsrectangle.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .krest {
+    margin-top: 1.5vh;
+    margin-left: 9vw;
+    position: absolute;
+    height: 5%;
+    width: 3%;
+    background: url('images/krest.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 100;
+  }
+}

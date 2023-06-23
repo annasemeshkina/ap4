@@ -1,0 +1,66 @@
+@media screen and (min-width: 320px) and (max-width: 834px) {
+  .aboutrectangle {
+    margin-top: -1vh;
+    margin-left: 7vw;
+    position: absolute;
+    height: 10vh;
+    width: 17vw;
+    background: url('images/aboutrectangle.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.abouttxt {
+    margin-top: 2.6vh;
+    margin-left: 12.6vw;
+    position: absolute;
+    font-family: "Chava";
+    color: white;
+    text-shadow: 0.2vw 0.2vw 0.3vw #FF0089;
+    font-size: 2.6vw;
+}
+.zdanie {
+    position: absolute;
+    margin-top: -9vh;
+    margin-left: 10vw;
+    height: 90%;
+    width: 80%;
+    background: url('images/zdanie.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.yoga {
+    position: absolute;
+    margin-top: -9vh;
+    margin-left: 10vw;
+    height: 90%;
+    width: 80%;
+    background: url('images/yoga.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.psix {
+    position: absolute;
+    margin-top: -9vh;
+    margin-left: 10vw;
+    height: 90%;
+    width: 80%;
+    background: url('images/psix.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dvor{
+    position: absolute;
+    margin-top: -9vh;
+    margin-left: 10vw;
+    height: 90%;
+    width: 80%;
+    background: url('images/dvor.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+}

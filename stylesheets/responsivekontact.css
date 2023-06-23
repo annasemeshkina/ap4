@@ -1,0 +1,13 @@
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .karta {
+      display: grid;
+      grid-template-columns: repeat(1, 100%);
+      grid-template-rows: repeat(2, 60vh);
+      gap: 0px 0px;
+      grid-template-areas:
+      "kartaa"
+      "kontact"
+    }
+    .kartaa { grid-area: kartaa }
+    .kontact { grid-area: kontact }
+  }

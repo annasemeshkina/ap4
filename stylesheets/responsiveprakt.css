@@ -1,0 +1,166 @@
+@media screen and (min-width: 320px) and (max-width: 834px) {
+  .praltiki {
+    display: grid;
+      grid-template-columns: repeat(1, 100%);
+      grid-template-rows: repeat(6, 60vw);
+      gap: 0px 0px;
+      grid-template-areas:
+      "pr1"
+      "pr2"
+      "pr3"
+      "pr4"
+      "pr5"
+      "pr6"
+  }
+  .pr1 { grid-area: pr1 }
+  .pr2 { grid-area: pr2 }
+  .pr3 { grid-area: pr3 }
+  .pr4 { grid-area: pr4 }
+  .pr5 { grid-area: pr5 }
+  .pr6 { grid-area: pr6 }
+
+  .pr1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    height: 90%;
+    width: 90%;
+    background: url('images/pr1.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pr1:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    height: 90%;
+    width: 90%;
+    background: url('images/p1z.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pr2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    height: 90%;
+    width: 90%;
+    background: url('images/pr2.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pr2:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    height: 90%;
+    width: 90%;
+    background: url('images/p2z.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pr3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    height: 90%;
+    width: 90%;
+    background: url('images/pr3.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pr3:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    height: 90%;
+    width: 90%;
+    background: url('images/p3z.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pr4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    height: 90%;
+    width: 90%;
+    background: url('images/pr4.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pr4:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    height: 90%;
+    width: 90%;
+    background: url('images/p4z.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pr5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    height: 90%;
+    width: 90%;
+    background: url('images/pr5.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pr5:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    height: 90%;
+    width: 90%;
+    background: url('images/p5z.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pr6 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    height: 90%;
+    width: 90%;
+    background: url('images/pr6.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pr6:hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+    height: 90%;
+    width: 90%;
+    background: url('images/p6z.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

@@ -1,0 +1,65 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(11, 9.09090909vh);
+  gap: 0px 0px;
+  grid-template-areas:
+  "main main"
+  "main main"
+  "main main"
+  "main main"
+  "main main"
+  "first first "
+  "first first"
+  "second second"
+  "second second"
+  "thid thid"
+  "thid thid"
+}
+.main{ grid-area: main }
+.first { grid-area: first }
+.second{ grid-area: second }
+.thid { grid-area: thid }
+/* ––––––––––––––––––магазин–––––––––––––––––––––– */
+.magazin {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(2, 46vh);
+  gap: 0px 0px;
+  grid-template-areas:
+  "znachki maska podushka"
+  "nakleyki dnevnik ni"
+}
+.znachki{ grid-area: znachki }
+.maska { grid-area: maska }
+.podushka{ grid-area: podushka }
+.nakleyki { grid-area: nakleyki }
+.dnevnik { grid-area: dnevnik }
+.ni { grid-area: ni }
+/* ––––––––––––––––––практики–––––––––––––––––––––– */
+.praltiki {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(2, 60vh);
+  gap: 0px 0px;
+  grid-template-areas:
+  "pr1 pr2 pr3"
+  "pr4 pr5 pr6"
+}
+.pr1 { grid-area: pr1 }
+.pr2 { grid-area: pr2 }
+.pr3 { grid-area: pr3 }
+.pr4 { grid-area: pr4 }
+.pr5 { grid-area: pr5 }
+.pr6 { grid-area: pr6 }
+/* ––––––––––––––––––о нас–––––––––––––––––––––– */
+.about2 {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(1, 8vh);
+  gap: 0px 0px;
+  grid-template-areas:
+  "onastext katrinki"
+}
+.onastext { grid-area: onastext }
+.katrinki { grid-area: katrinki }
