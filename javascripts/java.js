@@ -100,3 +100,58 @@ $(document).ready(function() {
 			$(".korzina").addClass("none");
 		});
 	});
+	$(document).ready(function() {
+			$(".kontact").click(function() {
+			$(".spasibo").removeClass("none");
+		});
+	});
+	$(document).ready(function() {
+			$(".spasibo").click(function() {
+			$(".spasibo").addClass("none");
+		});
+	});
+	$(document).ready(function() {
+			$(".pr1").click(function() {
+			$(".zapis").removeClass("none");
+		});
+	});
+	$(document).ready(function() {
+			$(".pr2").click(function() {
+			$(".zapis").removeClass("none");
+		});
+	});
+	$(document).ready(function() {
+			$(".pr3").click(function() {
+			$(".zapis").removeClass("none");
+		});
+	});
+	$(document).ready(function() {
+			$(".pr4").click(function() {
+			$(".zapis").removeClass("none");
+		});
+	});
+	$(document).ready(function() {
+			$(".pr5").click(function() {
+			$(".zapis").removeClass("none");
+		});
+	});
+	$(document).ready(function() {
+			$(".pr6").click(function() {
+			$(".zapis").removeClass("none");
+		});
+	});
+	$(document).ready(function() {
+			$(".zapis").click(function() {
+			$(".zapis").addClass("none");
+		});
+	});
+	$(document).ready(function() {
+			$(".sotrudnichestvo").click(function() {
+			$(".spasibo2").removeClass("none");
+		});
+	});
+	$(document).ready(function() {
+			$(".spasibo2").click(function() {
+			$(".spasibo2").addClass("none");
+		});
+	});

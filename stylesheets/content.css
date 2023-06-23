@@ -973,3 +973,37 @@ to { opacity: 1; }
   text-shadow: 0.2vw 0.2vw 0.3vw #FF0089;
   font-size: 1.4vw;
 }
+.spasibo {
+  position: absolute;
+  margin-left: 10vw;
+  margin-top: 7vw;
+  height: 60%;
+  width: 80%;
+  background: url('images/spasibo.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.spasibo2 {
+  position: absolute;
+  margin-left: 10vw;
+  margin-top: 7vw;
+  height: 60%;
+  width: 80%;
+  background: url('images/spasibo.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 100;
+}
+.zapis {
+  position: absolute;
+  margin-left: 10vw;
+  margin-top: 10vw;
+  height: 60%;
+  width: 80%;
+  background: url('images/zapis.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
