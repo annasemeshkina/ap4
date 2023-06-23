@@ -1,3 +1,4 @@
+
 .container {
   display: grid;
   grid-template-columns: repeat(2, 50%);
@@ -53,7 +54,7 @@
 .pr5 { grid-area: pr5 }
 .pr6 { grid-area: pr6 }
 /* ––––––––––––––––––о нас–––––––––––––––––––––– */
-.about2 {
+/* .about2 {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(1, 8vh);
@@ -62,4 +63,4 @@
   "onastext katrinki"
 }
 .onastext { grid-area: onastext }
-.katrinki { grid-area: katrinki }
+.katrinki { grid-area: katrinki } */
